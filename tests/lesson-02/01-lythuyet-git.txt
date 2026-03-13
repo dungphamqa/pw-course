@@ -1,0 +1,19 @@
+(*) Diễn giải chi tiết
+
+1. git init -> Khởi tạo repo local (working directory) : Các file mới or file có thay đổi
+
+2. git add <file_name> -> thêm các file vào vùng commit theo file_name, tạo ra các phiên bản (stg Area)
+
+3. git add . -> Đưa các file còn lại or all các file vào vùng commit khi file chưa có trong vùng commit
+
+4. git commit -m "message" -> đẩy các file tư vùng STG Area vào Local Repository
+
+
+
+(*) Tóm tắt
+
+1. git init:-> working directory
+
+2. git add <file_name> or git add . :  working directory -> STG Area
+
+3. git commit -m "message": STG Area -> Local Repository
