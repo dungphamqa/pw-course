@@ -42,7 +42,7 @@ dùng commit sau: `<type> : <sort-description>`.
         - fix: sửa lỗi 1 TC trước
     - sort-description: mô tả ngắn gon (<50 kí tự>)
 
-### 2.3 Simple worrkflow
+### 2.3 Simple workflow
 - Không dùng global config: git init > git config > git add > git commit > git push
 - Dùng global config: git init > git add > git commit > git push
 
@@ -63,7 +63,7 @@ dùng commit sau: `<type> : <sort-description>`.
     -> Từ khoá: `var/ let`
     - vd: var Name = "Dung Pham"; 
      let  isLovePlayWright = true;
-     - Sự khác nhau của var/let : var cho khai báo lại, let thì không. var có pham vi global, let có phạm vi trong 1 block -> Nên dùng let để tránh khai báo trùng biến
+     - Sự khác nhau của var/let : var cho khai báo lại, let thì không. var có phạm vi global, let có phạm vi trong 1 block -> Nên dùng let để tránh khai báo trùng biến
 
 - Hằng.
 
@@ -89,10 +89,10 @@ dùng commit sau: `<type> : <sort-description>`.
     - Symbol
     - BigInt
 
-- Kiểu tham chiếu ( Reference type)
+- Kiểu tham chiếu (Reference type)
     - Object
 
--> Cách để biết biến có kiểu dũư liệu nào: đọc code or sd hàm `<typeof>` `<variable>`
+-> Cách để biết biến có kiểu dữ liệu nào: đọc code or sd hàm `<typeof>` `<variable>`
 
 ### 3.4 Toán tử - so sánh
 - so sánh bằng: 
@@ -124,7 +124,7 @@ dùng commit sau: `<type> : <sort-description>`.
 - for (i)
 - for (of)
 - for (each)
-- forr (in)
+- for (in)
 - while
 - do - while
 

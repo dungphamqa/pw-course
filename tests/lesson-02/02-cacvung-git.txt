@@ -8,7 +8,7 @@ c. Chạy lệnh git commit -m"inint project"
 -> Thông baos lỗi do chưa có file naò được add
 
 d. Chạy lệnh: git add file1
--> Commit file1 từ vùng working directory sang vùng STG Area
+-> Add file1 từ vùng working directory sang vùng STG Area
 
 e. Chạy lệnh git commit -m'add file1'
 -> Commit file1 (vùng Local Repository)
