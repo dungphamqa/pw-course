@@ -1,0 +1,11 @@
+1. Giải thích câu lệnh: git commit --amend
+-> Sửa commit gần nhất
+
+2. Giải thích câu lệnh: git commit --amend -m"message"
+-> Sửa mgs của commit gần nhất
+
+3. Giải thích câu lệnh: git restore --staged <file>
+-> restore file từ vùng STG về vùng working directory
+
+4. Giải thích câu lệnh: git reset HEAD ~1
+-> reset 1 commit gần nhất từ vùng repository về cùng working directory
