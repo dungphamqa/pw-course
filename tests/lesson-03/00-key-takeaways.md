@@ -63,7 +63,7 @@
 
 - Ví dụ khai báo.
 
-    const myInfor ={
+    `const myInfor ={
         name: "Dung",
         adrress: "Bac Ninh",
         age: "28",
@@ -73,29 +73,29 @@
             name: "A",
             level: 1
         }
-    }
+    }`
 
 - Ví dụ console.log (truy xuất thuộc tính bên trong object)
-   -  console.log (myInfor.name) ~ console.log (myInfor["name"])
-   - console.log (myInfor.codingClass.name) ~ console.log (myInfor.["codingClas"]["name"])
+   - `console.log (myInfor.name)` ~ `console.log (myInfor["name"])`
+   - `console.log (myInfor.codingClass.name)` ~ `console.log (myInfor.["codingClas"]["name"])`
 
 - Bổ sung:
     - Nếu object khai báo biên const -> vẫn cho phép thay đổi biến trong object 
-    -> ví dụ: const codingClass: {
+    -> ví dụ: `const codingClass: {
             name: "A",
             level: 1
         }
-        codingClass.name ="NaN"
-    - Thêm thuộc tính vào object dùng: odingClass.year = 21 or odingClass.["year"] = 21
-    - Xoá thuộc tính: delete.codingClass.name
+        codingClass.name ="NaN"`
+    - Thêm thuộc tính vào object dùng: `odingClass.year = 21 or odingClass.["year"] = 21`
+    - Xoá thuộc tính: `delete.codingClass.name`
 
 
 ### 4.3 Array
 - Khai báo mảng: `const arr = [n1,n2,n3...]` //n: các phần tử trong mảng
 - Truy xuất mảng;
-    - vd: console.log (arr[0]); -> In ra giá trị n1
-    - Lưu ý: Độ dài mảng: length -> vd:console.log (arr.length); -> in ra 3
-    - Lấy phần tử theo index: [0]~n1, [1]~n2 ....
+    - vd: `console.log (arr[0]); -> In ra giá trị n1`
+    - Lưu ý: Độ dài mảng: length -> `vd:console.log (arr.length); -> in ra 3`
+    - Lấy phần tử theo index: `[0]~n1, [1]~n2 ....`
 
 - Bổ sung:
     - Thêm phần tử vào mảng: dùng hàm push -> arr.push(1);
@@ -103,9 +103,9 @@
 ### 4.4 Function
 - Định nghĩa: đoạn code được đặt tên và có thể tái sử dụng, thực hiện 1 nhiệm vụ or 1 tính toán cụ thể
 - Khai báo
-    function <tênHam>(n1,n2...){
+    `function <tênHam>(n1,n2...){
         // code
-    }
+    }`
 
 (*) Bổ sung:
 - Sửa message commit: `git commit --amend -m"mgs"` // amend: sửa commit gần nhất

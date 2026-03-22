@@ -5,7 +5,7 @@ const car = {
     year: 2001
 }
 
-console.log("Năm sản xuất cuả xe:", + car.year);
+console.log("Năm sản xuất cuả xe:", car.year);
 
 //2.
 const person = {
@@ -23,11 +23,11 @@ console.log("Tên đường:", person.address.street);
 const student = {
     name: "HS A",
     grades: {
-        math: [7, 8],
+        math: 7,
         english: 8
     }
 }
-console.log("Điểm môn toán:", + student.grades.math[1]);
+console.log("Điểm môn toán:", + student["grades"]["math"]);
 
 //4.
 const settings = {
@@ -46,7 +46,7 @@ bike.color = 'Xanh'
 console.log(bike);
 
 //6.
-employee = {
+const employee = {
     name: "Dung",
     age: 28
 }

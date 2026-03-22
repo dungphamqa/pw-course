@@ -1,35 +1,32 @@
-// 1. 
-const a = 1;
-const b = 5;
+const { findPackageJSON } = require("node:module");
 
-function multiply(a,b) {
-    console.log (a*b);
+// 1. 
+function multiply(a, b) {
+    console.log(a * b);
 }
-multiply (3,4);
-multiply (5,9);
+multiply(3, 4);
+multiply(5, 9);
 
 // 2. 
-const d = 1;
-const e  = 2;
-const f = 5;
-
-function findMin(d,e,f) {
+function findMin(d, e, f) {
     let min = d;
-    if (e<min){
+    if (e < min) {
         min = e
     };
-    if (f<min){
+    if (f < min) {
         min = f
     };
 
-    console.log (min);
+    return min;
 
 }
-findMin (4,3,6);
-findMin (9,5,5);
+let result1 = findMin(3, 9, 1);
+let result2 = findMin(9, 3, 6);
+console.log("Kết quả 1:", result1);
+console.log("Kết quả 2:", result2);
 
 // 3.
-const students =[
+const students = [
     {
         name: "A",
         score: 5
@@ -45,33 +42,27 @@ const students =[
 ];
 const threshold = 6;
 
-function getTopStudents (students,threshold){
+function getTopStudents(students, threshold) {
     let result = [];
-    for (let i = 0; i <students.length; i++){
-        if(students[i].score >= threshold) {
-            result.push(students[i]);
-       
+    for (let i = 0; i < students.length; i++) {
+        if (students[i].score >= threshold) {
+            result.push(students[i].name);
+
         }
     }
-    //return result; -- tham khảo trên mạng 1 cách khác
-    console.log (result);
+    return result;
 
 }
-getTopStudents (students,threshold);
-//const topStudents = getTopStudents(students,threshold); -- tham khảo trên mạng 1 cách khác
-//console.log (topStudents);
+const topStudents = getTopStudents(students, threshold);
+console.log(topStudents);
 
 
 //4. 
-const principal = 20000;
-const rate = 5;
-const years = 2;
-
-function calculateInterest (principal,rate , years){
-    let total = principal + principal * rate * years/100;
-    console.log (total);
+function calculateInterest(principal, rate, years) {
+    let total = principal + principal * rate * years / 100;
+    return total;
 }
 
-
-calculateInterest(30000,10,2);
+let result = calculateInterest(1000, 5, 2);
+console.log("Tổng số tiền:", result);
 
