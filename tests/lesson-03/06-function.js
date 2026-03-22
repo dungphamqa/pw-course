@@ -1,5 +1,3 @@
-const { findPackageJSON } = require("node:module");
-
 // 1. 
 function multiply(a, b) {
     console.log(a * b);
